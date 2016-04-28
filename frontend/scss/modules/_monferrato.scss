@@ -46,6 +46,10 @@
 	&:nth-of-type(2){
 		text-align: right;
 	}
+	span{
+		background-color:$color-yellow;
+		color:$color-gray;
+	}
 }
 
 .listen{
