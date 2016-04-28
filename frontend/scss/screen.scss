@@ -1,0 +1,25 @@
+/*
+ *	Main stylesheet
+ */
+
+//Compass imports
+@import 'compass/reset/';
+@import 'compass/css3/';
+@import 'compass/utilities';
+@import 'compass/typography';
+
+//Variables
+@import 'variables/_breakpoints.scss';
+@import 'variables/_colors.scss';
+
+//Utilities imports
+@import 'utilities/_typography.scss';
+@import 'utilities/_layout.scss';
+@import 'utilities/_utilities.scss';
+
+//Imports
+@import 'modules/_monferrato.scss';
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
